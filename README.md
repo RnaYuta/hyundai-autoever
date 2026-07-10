@@ -12,3 +12,14 @@
 - HTML5
 - CSS3
 - JavaScript
+
+
+## Commit 컨벤션
+
+- feat: 새로운 기능 추가
+- fix: 버그 수정
+- docs: 문서 수정
+- style: (코드 수정 없이) 스타일만 변경 (들여쓰기 같은 포맷이나 세미콜론 추가 등)
+- refactor: 코드 리팩토링
+- test: test 관련한 코드 추가
+- chore: (코드 수정 없이) 설정 등 변경
