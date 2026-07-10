@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6f8;
+    color: #222;
+}
+
+/* 헤더 */
+header {
+    background-color: #222;
+    color: white;
+    padding: 24px 40px;
+}
+
+header h1 {
+    margin-bottom: 12px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd166;
+}
+
+/* 메인 */
+main {
+    width: 70%;
+    float: left;
+    padding: 32px 40px;
+}
+
+main > p:first-child {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+main > p:nth-child(2) {
+    color: #666;
+    margin-bottom: 24px;
+}
+
+/* 글 카드 */
+section {
+    margin-bottom: 24px;
+}
+
+article {
+    background-color: white;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+article h2 {
+    margin-bottom: 12px;
+    color: #1d3557;
+}
+
+article p {
+    margin-bottom: 8px;
+}
+
+/* 사이드바 */
+aside {
+    width: 30%;
+    float: right;
+    padding: 32px 40px 32px 0;
+}
+
+aside h1 {
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+aside nav {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+}
+
+aside nav ul {
+    display: block;
+}
+
+aside nav li {
+    margin-bottom: 10px;
+}
+
+aside nav a {
+    color: #1d3557;
+}
+
+aside nav a:hover {
+    color: #e76f51;
+}
+
+/* 푸터 */
+footer {
+    clear: both;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 24px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin-bottom: 6px;
+}
+
+/* 반응형 */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    main,
+    aside {
+        width: 100%;
+        float: none;
+        padding: 24px;
+    }
+
+    aside {
+        padding-top: 0;
+    }
+}
+
+.art1{
+    color: dimgray;
+}
+
+#menu article {
+    margin-bottom: 20px;
+}
